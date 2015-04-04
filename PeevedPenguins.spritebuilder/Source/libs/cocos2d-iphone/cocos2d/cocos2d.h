@@ -127,7 +127,6 @@
 #import "CCPhysicsShape.h"
 
 // Sound
-#import "OALSimpleAudio.h"
 
 // Retiring
 #import "CCAnimation.h" // put this back for v3.4 because it's still in use, and would otherwise be unavailable to Swift
