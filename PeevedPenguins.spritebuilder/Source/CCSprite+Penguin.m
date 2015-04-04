@@ -1,19 +1,19 @@
 //
-//  CCSprite_Seal.h
+//  CCSprite+Penguin.m
 //  PeevedPenguins
 //
-//  Created by Saqib Ali on 4/3/15.
+//  Created by Saqib Ali on 4/4/15.
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
-#import "CCSprite.h"
+#import "CCSprite+Penguin.h"
 
-@interface CCSprite ()
+@implementation CCSprite (Penguin)
 - (id)init {
     self = [super init];
     
     if (self) {
-        CCLOG(@"Seal created");
+        CCLOG(@"Penguin created");
     }
     
     return self;
