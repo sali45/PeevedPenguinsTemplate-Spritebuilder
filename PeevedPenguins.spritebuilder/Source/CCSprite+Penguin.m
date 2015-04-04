@@ -10,5 +10,4 @@
 
 @implementation CCSprite (Penguin)
 
-}
 @end
