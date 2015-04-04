@@ -62,15 +62,14 @@
     return [CCBReader loadAsScene:@"MainScene"];
 }
 
-- (Bool)appliation:(UIApplication *)application didFinishLaunchingWithOptions:
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [...]
     
-    [self setupCocos2dWithOptions:cocos2dSetup]
+    [self setupCocos2dWithOptions:cocos2dSetup];
     
     [CCBReader load:@"Penguin"];
     [CCBReader load:@"Seal"];
     
     return YES;
-}
 @end
