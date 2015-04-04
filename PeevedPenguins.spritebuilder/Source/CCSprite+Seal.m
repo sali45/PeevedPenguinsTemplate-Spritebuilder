@@ -10,5 +10,5 @@
 
 @implementation CCSprite (Seal)
 
-}
+
 @end
